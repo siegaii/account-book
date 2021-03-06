@@ -1,0 +1,16 @@
+{
+  "name": "account-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm run install:client && npm run install:server",
+    "install:client": "cd account-book-client && npm i",
+    "install:server": "cd account-book-server && npm i",
+    "build": "cd account-book-client && npm run build",
+    "start": "cd account-book-server && npm run start",
+    "test:client": "cd account-book-client && npm run test",
+    "test:server": "cd account-book-server && npm run test"
+  },
+  "author": "siegaii"
+}
